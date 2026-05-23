@@ -7,6 +7,13 @@
     margin-bottom: 30px;
 }
 
+.field-label {
+    display: block;
+    font-weight: 600;
+    margin: 10px 0 8px;
+    color: #444;
+}
+
 textarea#word-input {
     width: 100%;
     height: 200px;
@@ -17,6 +24,110 @@ textarea#word-input {
     font-size: 1rem;
     resize: vertical;
     margin-bottom: 15px;
+}
+
+textarea#base64-input,
+textarea#base64-output,
+textarea#double-base64-output {
+    width: 100%;
+    min-height: 140px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: vertical;
+    background: #fff;
+}
+
+textarea#base64-output,
+textarea#double-base64-output {
+    background: #fcfcfc;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 14px 0 18px;
+}
+
+.action-btn {
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.15s ease, opacity 0.15s ease, background-color 0.15s ease;
+}
+
+.action-btn:hover {
+    transform: translateY(-1px);
+}
+
+.primary-btn {
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.primary-btn:hover {
+    background: #2980b9;
+}
+
+.secondary-btn {
+    background: #e7e7e7;
+    color: #333;
+}
+
+.secondary-btn:hover {
+    background: #d9d9d9;
+}
+
+.ghost-btn {
+    background: #fff;
+    color: var(--primary-color);
+    border: 1px solid rgba(52, 152, 219, 0.35);
+    padding: 8px 14px;
+}
+
+.ghost-btn:hover {
+    background: rgba(52, 152, 219, 0.08);
+}
+
+.results-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 15px;
+}
+
+.result-card {
+    background: #fff;
+    padding: 16px;
+    border-radius: 8px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+}
+
+.result-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.result-header h3 {
+    font-size: 1.05rem;
+}
+
+.encode-status {
+    min-height: 1.4em;
+    margin-top: 12px;
+    color: #2c7a2c;
+}
+
+.encode-status.error {
+    color: #b00020;
 }
 
 .stats-grid {

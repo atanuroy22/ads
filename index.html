@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Free online word counter tool. Count words, characters, paragraphs, and estimate reading time instantly. Simple, fast, and secure.">
-    <title>Free Online Word Counter - DevTools</title>
+    <meta name="description" content="Free online Base64 encoder with double encoding and copy buttons, plus a word counter tool. Simple, fast, and secure.">
+    <title>Free Online Base64 Encoder - DevTools</title>
     
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css">
@@ -46,7 +46,40 @@
 
     <div class="container main-content">
         <main class="article-content">
-            <h1>Free Online Word Counter</h1>
+            <h1>Free Online Base64 Encoder</h1>
+            <p>Encode text to Base64, generate a double-encoded version, and copy either result with one click. The word counter below is still available if you need it.</p>
+
+            <div class="tool-container">
+                <h2>Base64 Encode Tool</h2>
+                <label class="field-label" for="base64-input">Input text</label>
+                <textarea id="base64-input" placeholder="Type or paste your text here..."></textarea>
+                <div class="button-row">
+                    <button id="encode-btn" class="action-btn primary-btn" type="button">Encode</button>
+                    <button id="clear-btn" class="action-btn secondary-btn" type="button">Clear</button>
+                </div>
+
+                <div class="results-grid">
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>Base64 Output</h3>
+                            <button id="copy-base64-btn" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="base64-output" readonly placeholder="Encoded text will appear here..."></textarea>
+                    </div>
+
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>Double Encoded Output</h3>
+                            <button id="copy-double-btn" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="double-base64-output" readonly placeholder="Double encoded text will appear here..."></textarea>
+                    </div>
+                </div>
+
+                <p id="encode-status" class="encode-status" aria-live="polite"></p>
+            </div>
+
+            <h2>Word Counter</h2>
             <p>Welcome to our free online word counter. This tool allows you to instantly count the number of words, characters, and paragraphs in your text. It also estimates the reading time.</p>
             
             <div class="tool-container">
