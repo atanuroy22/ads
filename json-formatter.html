@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online JSON formatter and validator. Beautify or minify your JSON strings instantly in the browser.">
+    <title>JSON Formatter & Validator - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">JSON Formatter & Validator</h1>
+            <p class="reveal reveal-delay-1">Paste your raw JSON string below to format (beautify) or minify it. The tool also validates the JSON structure to ensure there are no syntax errors.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <div id="json-error" class="error-msg">Invalid JSON: Please check your syntax.</div>
+                <textarea id="json-input" class="json-area" placeholder='Paste JSON here... e.g. {"name":"DevTools","awesome":true}'></textarea>
+                <div class="button-row">
+                    <button id="format-json-btn" class="action-btn primary-btn" type="button">Format / Beautify</button>
+                    <button id="minify-json-btn" class="action-btn secondary-btn" type="button">Minify</button>
+                    <button id="copy-json-btn" class="action-btn ghost-btn" type="button" style="margin-left: auto;">Copy Result</button>
+                </div>
+            </div>
+
+            <h2 class="reveal">What is JSON?</h2>
+            <p class="reveal">JSON (JavaScript Object Notation) is a lightweight data-interchange format. It is incredibly easy for humans to read and write, and highly straightforward for machines to parse and generate. JSON is a text format that is completely language independent.</p>
+            <p class="reveal">It is based on two universal structures:</p>
+            <ul class="reveal">
+                <li>A collection of name/value pairs (often realized as an object, record, struct, dictionary, hash table, keyed list, or associative array).</li>
+                <li>An ordered list of values (often realized as an array, vector, list, or sequence).</li>
+            </ul>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h2 class="reveal">Why Format JSON?</h2>
+            <p class="reveal">Often, APIs or database dumps return JSON in a "minified" format. While efficient for computers, this makes the data nearly impossible for developers to read or debug.</p>
+            <p class="reveal">Our formatter instantly parses the raw string and outputs a properly indented, "beautified" version so you can easily trace the hierarchical structure of the data payload.</p>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

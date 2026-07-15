@@ -3,11 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact DevTools. Get in touch with questions, feedback, or suggestions about our developer tools.">
     <title>Contact Us - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/tools.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887"
-     crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -15,47 +18,59 @@
             <a href="index.html" class="logo">DevTools</a>
             <ul class="nav-links">
                 <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
                 <li><a href="privacy.html">Privacy</a></li>
                 <li><a href="terms.html">Terms</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </div>
     </header>
 
     <div class="container main-content">
-        <main class="article-content legal-content">
-            <h1>Contact Us</h1>
-            <p>If you have any questions, feedback, or suggestions about our tools, feel free to contact us.</p>
-            
-            <h2>Email</h2>
-            <p>You can reach us at: <a href="mailto:contact@atanu2.dpdns.org">contact@atanu2.dpdns.org</a></p>
-            
-            <h2>GitHub</h2>
-            <p>You can also open an issue or contribute directly on our GitHub project page: <a href="https://github.com/atanuroy22/ads" target="_blank" rel="noopener noreferrer">github.com/atanuroy22/ads</a></p>
+        <main class="article-content">
+            <h1 class="reveal">Contact Us</h1>
+            <p class="reveal reveal-delay-1">If you have any questions, feedback, or suggestions about our tools, feel free to contact us.</p>
+
+            <h2 class="reveal">Email</h2>
+            <p class="reveal">You can reach us at: <a href="mailto:contact@atanu2.dpdns.org">contact@atanu2.dpdns.org</a></p>
+
+            <h2 class="reveal">GitHub</h2>
+            <p class="reveal">You can also open an issue or contribute directly on our GitHub project page: <a href="https://github.com/atanuroy22/ads" target="_blank" rel="noopener noreferrer">github.com/atanuroy22/ads</a></p>
         </main>
-        
+
         <aside class="sidebar">
-             <div class="ad-container sidebar-ad">
-                <span class="ad-label">Sidebar Ad (300x250)</span>
-                <ins class="adsbygoogle"
-                     style="display:block"
-                     data-ad-client="ca-pub-5977886352638887"
-                     data-ad-slot="1122334455"
-                     data-ad-format="auto"
-                     data-full-width-responsive="true"></ins>
-                <script>
-                     (adsbygoogle = window.adsbygoogle || []).push({});
-                </script>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
             </div>
         </aside>
     </div>
 
     <footer>
         <div class="container">
-            <p>&copy; 2024 DevTools. All rights reserved.</p>
-            <p><a href="privacy.html" style="color: #fff;">Privacy Policy</a> | <a href="terms.html" style="color: #fff;">Terms of Service</a></p>
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
         </div>
     </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
     <script src="js/main.js"></script>
 </body>
 </html>

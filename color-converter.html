@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online color picker and converter. Convert between HEX, RGB, and HSL color formats instantly.">
+    <title>Color Picker & Converter - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">Color Picker & Converter</h1>
+            <p class="reveal reveal-delay-1">Pick any color and instantly see its HEX, RGB, and HSL values. Copy any format with a single click.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <h2>Color Picker & Converter</h2>
+                <div id="color-preview" style="height:120px; border-radius:10px; margin-bottom:20px; border:1px solid rgba(255,255,255,0.08); background:#6c63ff; transition: background 0.3s ease;"></div>
+                <label class="field-label" for="color-picker-input">Pick a color</label>
+                <input type="color" id="color-picker-input" value="#6c63ff" style="width:100%; height:50px; border-radius:8px; cursor:pointer; border:1px solid rgba(255,255,255,0.08); margin-bottom:20px;">
+                <div class="results-grid">
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>HEX</h3>
+                            <button id="copy-hex" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <input type="text" id="color-hex" readonly value="#6c63ff" style="width:100%; padding:12px 16px; border:1px solid rgba(255,255,255,0.08); border-radius:8px; background:rgba(255,255,255,0.03); color:var(--text-primary); font-family:'JetBrains Mono', monospace; font-size:0.95rem;">
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>RGB</h3>
+                            <button id="copy-rgb" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <input type="text" id="color-rgb" readonly value="rgb(108, 99, 255)" style="width:100%; padding:12px 16px; border:1px solid rgba(255,255,255,0.08); border-radius:8px; background:rgba(255,255,255,0.03); color:var(--text-primary); font-family:'JetBrains Mono', monospace; font-size:0.95rem;">
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>HSL</h3>
+                            <button id="copy-hsl" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <input type="text" id="color-hsl" readonly value="hsl(243, 100%, 70%)" style="width:100%; padding:12px 16px; border:1px solid rgba(255,255,255,0.08); border-radius:8px; background:rgba(255,255,255,0.03); color:var(--text-primary); font-family:'JetBrains Mono', monospace; font-size:0.95rem;">
+                    </div>
+                </div>
+            </div>
+
+            <h2 class="reveal">Color Formats Explained</h2>
+            <p class="reveal">When working with colors on the web, you will encounter three primary formats. Each represents color data in a different way, and understanding them is essential for front-end development and design.</p>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <ul class="reveal">
+                <li><strong>HEX:</strong> A hexadecimal representation of a color using six characters (plus a leading hash). The format is #RRGGBB, where each pair of characters represents the red, green, and blue channels respectively. HEX is the most common format found in CSS and design tools.</li>
+                <li><strong>RGB:</strong> Defines a color by specifying the intensity of its red, green, and blue components, each ranging from 0 to 255. The format is rgb(red, green, blue). RGB is intuitive for screen-based work since it directly maps to how displays mix light.</li>
+                <li><strong>HSL:</strong> Stands for Hue, Saturation, and Lightness. Hue is the angle on the color wheel (0-360), saturation is how vivid the color is (0-100%), and lightness is how bright it is (0-100%). HSL is often preferred when generating color variations or adjusting brightness programmatically.</li>
+            </ul>
+
+            <h2 class="reveal">When to Use Each Format</h2>
+            <p class="reveal">Choosing the right color format depends on your specific use case. Here are some common scenarios:</p>
+            <ul class="reveal">
+                <li><strong>Design Handoff:</strong> Use HEX when sharing colors with designers or copying values from tools like Figma and Photoshop, since it is the most universally supported shorthand.</li>
+                <li><strong>CSS Custom Properties:</strong> RGB or HSL with alpha transparency (rgba / hsla) is ideal when you need to control opacity or generate lighter and darker variations of a base color.</li>
+                <li><strong>Dynamic Color Generation:</strong> HSL is the best choice when programmatically creating color palettes, because adjusting hue or lightness produces predictable and aesthetically pleasing results.</li>
+                <li><strong>Accessibility Testing:</strong> Use any format in combination with contrast-checking tools to ensure your text and background color combinations meet WCAG accessibility guidelines.</li>
+            </ul>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="sidebar-widget reveal">
+                <h3>Other Resources</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

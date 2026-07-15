@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online hash generator. Generate SHA-1, SHA-256, SHA-384, and SHA-512 hashes in your browser.">
+    <title>Hash Generator - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">Hash Generator</h1>
+            <p class="reveal reveal-delay-1">Generate secure cryptographic hashes from any text input using SHA-1, SHA-256, SHA-384, and SHA-512 algorithms. Everything runs locally in your browser.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <label class="field-label" for="hash-input">Input text</label>
+                <textarea id="hash-input" placeholder="Enter text to hash..."></textarea>
+
+                <label class="field-label" for="hash-algorithm">Hash Algorithm</label>
+                <select id="hash-algorithm" style="width:100%; padding:11px; background:rgba(255,255,255,0.03); color:#f0f0f5; border:1px solid rgba(255,255,255,0.08); border-radius:10px; font-family:inherit; font-size:1rem; margin-bottom:16px;">
+                    <option value="SHA-1">SHA-1</option>
+                    <option value="SHA-256" selected>SHA-256</option>
+                    <option value="SHA-384">SHA-384</option>
+                    <option value="SHA-512">SHA-512</option>
+                </select>
+
+                <div class="button-row">
+                    <button id="hash-generate-btn" class="action-btn primary-btn" type="button">Generate Hash</button>
+                    <button id="hash-clear-btn" class="action-btn secondary-btn" type="button">Clear</button>
+                </div>
+
+                <div class="result-card">
+                    <div class="result-header">
+                        <h3>Hash Output</h3>
+                        <button id="copy-hash-btn" class="action-btn ghost-btn" type="button">Copy Hash</button>
+                    </div>
+                    <textarea id="hash-output" readonly placeholder="Hash will appear here..."></textarea>
+                </div>
+
+                <p id="hash-status" class="encode-status" aria-live="polite"></p>
+            </div>
+
+            <h2 class="reveal">What is Cryptographic Hashing?</h2>
+            <p class="reveal">A cryptographic hash function is a mathematical algorithm that maps data of arbitrary size to a fixed-size string of bytes. The output, commonly referred to as a hash value or digest, is unique to each unique input. Even a tiny change in the input text will produce a completely different hash output, a property known as the avalanche effect.</p>
+            <p class="reveal">Cryptographic hash functions are designed to be one-way functions, meaning they are practically impossible to reverse. You cannot reconstruct the original input from the hash alone. This makes them invaluable for security applications like password storage, digital signatures, and data integrity verification.</p>
+
+            <h2 class="reveal">Common Hash Algorithms</h2>
+            <p class="reveal">There are several widely used cryptographic hash algorithms, each offering different levels of security and output length:</p>
+            <ul class="reveal">
+                <li><strong>SHA-1 (Secure Hash Algorithm 1):</strong> Produces a 160-bit (20-byte) hash value. Originally designed by the NSA, it is now considered cryptographically weak and should not be used for security-sensitive applications. It remains useful for checksums and legacy compatibility.</li>
+                <li><strong>SHA-256:</strong> Part of the SHA-2 family designed by the NSA. Produces a 256-bit (32-byte) hash value and is currently the most widely used algorithm. It is used in Bitcoin mining, TLS certificates, and numerous security protocols.</li>
+                <li><strong>SHA-384:</strong> Also part of the SHA-2 family, producing a 384-bit (48-byte) hash value. It offers a higher security margin than SHA-256 and is commonly used in enterprise security environments and government applications.</li>
+                <li><strong>SHA-512:</strong> The most robust variant in the SHA-2 family, producing a 512-bit (64-byte) hash value. It provides the highest level of security among the SHA-2 algorithms and is frequently used for high-security applications.</li>
+            </ul>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h2 class="reveal">Use Cases for Hashes</h2>
+            <p class="reveal">Cryptographic hashes are used in a wide variety of applications across software development, cybersecurity, and data management:</p>
+            <ul class="reveal">
+                <li><strong>Password Storage:</strong> Systems store hashes of user passwords instead of plaintext. When a user logs in, the entered password is hashed and compared against the stored hash, ensuring passwords are never exposed even if the database is compromised.</li>
+                <li><strong>Data Integrity Verification:</strong> File downloads often include a hash value so users can verify the downloaded file has not been tampered with or corrupted during transmission. Tools like checksums rely on this mechanism.</li>
+                <li><strong>Digital Signatures & Certificates:</strong> SSL/TLS certificates used to secure websites rely on hash functions to generate digital signatures, proving the authenticity and integrity of the certificate.</li>
+                <li><strong>Blockchain & Cryptocurrency:</strong> Blockchain technologies like Bitcoin use SHA-256 hashing extensively for mining new blocks, linking blocks together, and ensuring the immutability of the ledger.</li>
+                <li><strong>Unique Identifiers:</strong> Hash functions generate unique fingerprints for files, commits in version control systems (like Git), and content-addressable storage systems.</li>
+            </ul>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="sidebar-widget reveal">
+                <h3>Other Resources</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

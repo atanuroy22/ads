@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online Base64 encoder with double encoding and copy buttons. Simple, fast, and secure.">
+    <title>Free Online Base64 Encoder - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">Free Online Base64 Encoder</h1>
+            <p class="reveal reveal-delay-1">Encode text to Base64, generate a double-encoded version, and copy either result with one click. Everything runs locally in your browser.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <h2>Base64 Encode Tool</h2>
+                <label class="field-label" for="base64-input">Input text</label>
+                <textarea id="base64-input" placeholder="Type or paste your text here..."></textarea>
+                <div class="button-row">
+                    <button id="encode-btn" class="action-btn primary-btn" type="button">Encode</button>
+                    <button id="clear-btn" class="action-btn secondary-btn" type="button">Clear</button>
+                </div>
+                <div class="results-grid">
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>Base64 Output</h3>
+                            <button id="copy-base64-btn" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="base64-output" readonly placeholder="Encoded text will appear here..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>Double Encoded Output</h3>
+                            <button id="copy-double-btn" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="double-base64-output" readonly placeholder="Double encoded text will appear here..."></textarea>
+                    </div>
+                </div>
+                <p id="encode-status" class="encode-status" aria-live="polite"></p>
+            </div>
+
+            <h2 class="reveal">What is Base64 Encoding?</h2>
+            <p class="reveal">Base64 is a group of binary-to-text encoding schemes that represent binary data in an ASCII string format by translating it into a radix-64 representation. The term Base64 originates from a specific MIME content transfer encoding.</p>
+            <p class="reveal">It is commonly used when there is a need to encode binary data that needs to be stored and transferred over media that are designed to deal with textual data. This ensures that the data remains intact without modification during transport.</p>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h2 class="reveal">Why Use Double Encoding?</h2>
+            <p class="reveal">In some security or obfuscation scenarios, developers might encode a string into Base64 twice. This is known as double encoding. While not a strong encryption method, it can serve as a simple layer of data transformation to deter casual observation or to bypass certain automated string filters. Our tool provides both single and double encoded outputs simultaneously for your convenience.</p>
+
+            <h2 class="reveal">Common Use Cases for Base64</h2>
+            <p class="reveal">Base64 encoding is widely used in various applications, including:</p>
+            <ul class="reveal">
+                <li><strong>Email Attachments:</strong> MIME uses Base64 to encode binary files like images and documents so they can be sent over email protocols (SMTP).</li>
+                <li><strong>Data URIs:</strong> Embedding image data directly into HTML or CSS files to reduce HTTP requests and improve page load speeds.</li>
+                <li><strong>Web APIs:</strong> Safely transmitting data that might otherwise conflict with XML or JSON formatting.</li>
+                <li><strong>Storing Complex Data:</strong> Saving binary data in databases or configuration files that only support plain text formats.</li>
+            </ul>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="sidebar-widget reveal">
+                <h3>Other Resources</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

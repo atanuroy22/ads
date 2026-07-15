@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online HTML entity encoder and decoder. Escape or unescape HTML entities to safely display content on web pages.">
+    <title>HTML Entity Encoder & Decoder - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">HTML Entity Encoder & Decoder</h1>
+            <p class="reveal reveal-delay-1">Convert special characters to their HTML entity equivalents and back again. This tool helps you safely display user content on web pages without breaking your markup.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <label class="field-label" for="html-input">Input</label>
+                <textarea id="html-input" placeholder="Enter HTML or text to encode/decode..."></textarea>
+                <div class="button-row">
+                    <button id="html-encode-btn" class="action-btn primary-btn" type="button">Encode Entities</button>
+                    <button id="html-decode-btn" class="action-btn secondary-btn" type="button">Decode Entities</button>
+                    <button id="html-clear-btn" class="action-btn secondary-btn" type="button">Clear</button>
+                </div>
+                <label class="field-label" for="html-output">Output</label>
+                <textarea id="html-output" readonly placeholder="Result will appear here..."></textarea>
+                <button id="copy-html-btn" class="action-btn ghost-btn" type="button">Copy Result</button>
+                <p id="html-status" class="encode-status" aria-live="polite"></p>
+            </div>
+
+            <h2 class="reveal">What are HTML Entities?</h2>
+            <p class="reveal">HTML entities are special strings that represent reserved characters in HTML. Because certain characters have special meaning in HTML markup (such as angle brackets for tags), you cannot simply type them directly into your content. Instead, you use entity references to display these characters on the page.</p>
+            <p class="reveal">For example, if you want to display a literal less-than sign on your webpage, you would write its entity reference <code>&amp;lt;</code> rather than using the raw character. The browser interprets the entity and renders the correct visual character.</p>
+
+            <h2 class="reveal">Why Encode HTML Entities?</h2>
+            <p class="reveal">Encoding HTML entities is essential for security and correct rendering. When user-generated content is placed directly into a page without encoding, it can break your layout or, worse, introduce Cross-Site Scripting (XSS) vulnerabilities.</p>
+            <p class="reveal">By encoding special characters, you ensure that content is displayed as plain text rather than being interpreted as executable markup. This is a critical practice for comments sections, search results, any user input fields, and anywhere untrusted data is rendered.</p>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h2 class="reveal">Common HTML Entities</h2>
+            <p class="reveal">Below is a quick reference of the most commonly used HTML character entities:</p>
+            <ul class="reveal">
+                <li><code>&amp;lt;</code> represents <strong>&lt;</strong> (less-than sign)</li>
+                <li><code>&amp;gt;</code> represents <strong>&gt;</strong> (greater-than sign)</li>
+                <li><code>&amp;amp;</code> represents <strong>&amp;</strong> (ampersand)</li>
+                <li><code>&amp;quot;</code> represents <strong>&quot;</strong> (double quotation mark)</li>
+                <li><code>&amp;#39;</code> represents <strong>&#39;</strong> (apostrophe / single quote)</li>
+            </ul>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="sidebar-widget reveal">
+                <h3>Other Resources</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

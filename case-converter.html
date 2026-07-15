@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Free online case converter. Convert text to uppercase, lowercase, title case, camelCase, snake_case, kebab-case and more.">
+    <title>Text Case Converter - DevTools</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/tools.css">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5977886352638887" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">DevTools</a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="privacy.html">Privacy</a></li>
+                <li><a href="terms.html">Terms</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="ad-container header-ad">
+            <span class="ad-label">Advertisement</span>
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1234567890" data-ad-format="auto" data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+        </div>
+    </div>
+
+    <div class="container main-content">
+        <main class="article-content">
+            <h1 class="reveal">Text Case Converter</h1>
+            <p class="reveal reveal-delay-1">Instantly convert your text into any case format. Type or paste your text below and see all six common case formats generated in real time. Everything runs locally in your browser.</p>
+
+            <div class="tool-container reveal reveal-delay-2">
+                <label class="field-label" for="case-input">Input text</label>
+                <textarea id="case-input" placeholder="Type or paste your text here..."></textarea>
+
+                <div class="results-grid" style="margin-top: 20px;">
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>UPPERCASE</h3>
+                            <button id="copy-upper" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-upper" readonly placeholder="UPPERCASE output..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>lowercase</h3>
+                            <button id="copy-lower" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-lower" readonly placeholder="lowercase output..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>Title Case</h3>
+                            <button id="copy-title" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-title" readonly placeholder="Title Case output..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>camelCase</h3>
+                            <button id="copy-camel" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-camel" readonly placeholder="camelCase output..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>snake_case</h3>
+                            <button id="copy-snake" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-snake" readonly placeholder="snake_case output..."></textarea>
+                    </div>
+                    <div class="result-card">
+                        <div class="result-header">
+                            <h3>kebab-case</h3>
+                            <button id="copy-kebab" class="action-btn ghost-btn" type="button">Copy</button>
+                        </div>
+                        <textarea id="case-kebab" readonly placeholder="kebab-case output..."></textarea>
+                    </div>
+                </div>
+
+                <div class="button-row" style="margin-top: 16px;">
+                    <button id="case-clear-btn" class="action-btn secondary-btn" type="button">Clear</button>
+                </div>
+            </div>
+
+            <h2 class="reveal">Why Convert Text Case?</h2>
+            <p class="reveal">Text case conversion is a fundamental need for developers, writers, and anyone who regularly works with text. Different programming languages, style guides, and platforms impose strict conventions on how identifiers, headings, file names, and content should be cased. Having an instant converter saves you from tedious manual retyping and eliminates the risk of inconsistent formatting across your project.</p>
+            <p class="reveal">For example, a database column might use snake_case while your JavaScript code expects camelCase. Copying variable names between these conventions by hand is error-prone and slow. Our tool handles all of these transformations for you in a single step.</p>
+
+            <div class="ad-container" style="height: 250px; margin: 30px 0;">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-5977886352638887" data-ad-slot="9876543210"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+
+            <h2 class="reveal">When to Use Each Format</h2>
+            <p class="reveal">Each case format serves a specific purpose depending on the context in which it is used:</p>
+            <ul class="reveal">
+                <li><strong>UPPERCASE</strong> &mdash; Commonly used for constants, environment variable names, headings in design layouts, and shouting emphasis in informal text.</li>
+                <li><strong>lowercase</strong> &mdash; The most universal and readable format. Ideal for URLs, email addresses, file names, and general prose.</li>
+                <li><strong>Title Case</strong> &mdash; Capitalizes the first letter of each word. Used in article titles, book chapters, headings, and formal document titles.</li>
+                <li><strong>camelCase</strong> &mdash; The standard for JavaScript variables, function names, and many object properties. The first word is lowercase; subsequent words start with a capital letter.</li>
+                <li><strong>snake_case</strong> &mdash; Uses underscores to separate words. Common in Python, Ruby, database column names, and many configuration file formats.</li>
+                <li><strong>kebab-case</strong> &mdash; Uses hyphens to separate words. The default convention for CSS class names, HTML IDs, URL slugs, and npm package names.</li>
+            </ul>
+
+            <h2 class="reveal">Tips for Better Text Formatting</h2>
+            <p class="reveal">When choosing a case format, consider your audience and the conventions of the platform or language you are working with. Consistency is key &mdash; mixing case conventions within the same project leads to confusion and makes code harder to maintain.</p>
+            <p class="reveal">Paste a block of code, a heading, or any raw text into the converter to quickly check how it looks across all formats. This is especially useful when migrating a project from one naming convention to another or when standardizing documentation.</p>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-widget reveal">
+                <h3>About DevTools</h3>
+                <p>DevTools provides simple, free utilities for developers and content creators. We focus on speed, privacy, and ease of use.</p>
+            </div>
+            <div class="ad-container sidebar-ad">
+                <span class="ad-label">Advertisement</span>
+                <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-5977886352638887" data-ad-slot="1122334455" data-ad-format="auto" data-full-width-responsive="true"></ins>
+                <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+            </div>
+            <div class="sidebar-widget reveal">
+                <h3>Other Resources</h3>
+                <ul style="list-style: none; padding: 0;">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </aside>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 DevTools. All rights reserved.</p>
+                <p class="footer-links">
+                    <a href="about.html">About Us</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="contact.html">Contact</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>We use cookies to analyze traffic and personalize content (ads). By continuing to use our site, you accept our use of cookies.</p>
+        <button id="accept-cookies" class="cookie-btn">Accept</button>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
