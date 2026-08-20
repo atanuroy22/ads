@@ -99,6 +99,7 @@
   "live_servers": [
     "Live Match"
   ],
+  "playz_channels_enabled": false,
   "banner": "[World cup -> In Live Events]⚠[Movies/Series -> In Movies]",
   "banner_enabled": true,
   "banner_scroll": false,
