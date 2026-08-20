@@ -124,7 +124,8 @@
   },
   "custom_server_urls": {
     "Alliance Broadband": [
-      "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u"
+      "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u",
+      "https://cloudplay-app-json.pages.dev/pro-raw-files/zee5-sd.json"
     ]
   },
   "live_events": [
