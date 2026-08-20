@@ -1,33 +1,17 @@
 {
-  "Jiotv+": [
-  {
-    "name": "Jiotv+ 2",
-    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/mbjtv-pro.m3u",
-    "logo": "https://iili.io/f1zkPwP.md.png"
-  },
-  {
-    "name": "Jiotv+ 2",
-    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/jtv-host.m3u",
-    "logo": "https://iili.io/f1zkPwP.md.png"
-  },
-  {
-    "name": "Jiotv+ Backup",
-    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/wt-mbtv.txt",
-    "logo": "https://iili.io/f1zkPwP.md.png",
-    "m3u": "true"
-  }
+  "JioTV+": [
+    {
+      "name": "JioTV+ Network",
+      "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
+      "logo": "https://iili.io/f1zkPwP.md.png",
+      "multi": true
+    }
   ],
-   "Zee5": [
+  "Zee5": [
     {
-      "name": "Zee5",
-      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/zee5.m3u",
-      "logo": "https://iili.io/f1zkit1.png",
-      "m3u": "true"
-    },
-    {
-      "name": "Zee5 SD",
-      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/zee5-sd.json",
-      "logo": "https://i.postimg.cc/TwYPrm3d/Zee5-official-logo.jpg"
+      "name": "Zee5 Network",
+      "url": "https://cloudplay-app-json.pages.dev/pro-cat/zee5.json",
+      "multi": true
     }
   ],
   "Sony": [
