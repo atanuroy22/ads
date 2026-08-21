@@ -1,6 +1,11 @@
 {
   "JioTV+": [
     {
+    "name": "Jiotv+ 2",
+    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/mbjtv-pro.m3u",
+    "logo": "https://iili.io/f1zkPwP.md.png"
+    },
+    {
       "name": "JioTV+ Network",
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
       "logo": "https://iili.io/f1zkPwP.md.png",
