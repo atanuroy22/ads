@@ -18,34 +18,6 @@
       "m3u": "true"
     }
   ],
-  "Zee5": [
-    {
-      "name": "Zee5 Network",
-      "url": "https://cloudplay-app-json.pages.dev/pro-cat/zee5.json",
-      "multi": true
-    }
-  ],
-  "Sony": [
-    {
-      "name": "Sony (IN)",
-      "url": "https://json.cloudplay.qzz.io/all-files-raw/sony.m3u",
-      "logo": "https://iili.io/f1zk6AB.jpg",
-      "m3u": "true"
-    },
-    {
-      "name": "Sony Network",
-      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
-      "logo": "https://iili.io/f1zk6AB.jpg",
-      "m3u": "true"
-    }
-  ],
-   "Sun NXT": [
-    {
-      "name": "Sun NXT",
-      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sunnxt.json",
-      "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png"
-    }
-  ],
   "Omni TV+": [
     {
       "name": "FIFA web",
