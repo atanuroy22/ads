@@ -11,17 +11,18 @@
   "live_servers": [
     ""
   ],
-  "playz_channels_enabled": false,
   "banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
-  "banner_enabled": true,
+  "banner_enabled": false,
   "banner_scroll": true,
   "channel_banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
-  "channel_banner_enabled": true,
+  "channel_banner_enabled": false,
   "channel_banner_scroll": true,
-  "movie_banner": "Search 🔎 Anything. [Everything is taken from internet-Omni TV only play those, owns nothing]",
+  "movie_banner": "[Everything is taken from internet-Omni TV only play those, owns nothing]",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
   "min_app_version": "2.0.2",
+  "multiplay_servers": false,
+  "multiplay": true,
   "custom_channels": {
     "C": [
       {
