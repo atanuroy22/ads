@@ -11,13 +11,13 @@
   "live_servers": [
     ""
   ],
-  "banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
-  "banner_enabled": false,
+  "banner": "[Every content is available freely on internet-Jiotv Go is only a player, not provider]",
+  "banner_enabled": true,
   "banner_scroll": true,
-  "channel_banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
+  "channel_banner": "[Every content is available freely on internet-Jiotv Go is only a player, not provider]",
   "channel_banner_enabled": false,
   "channel_banner_scroll": true,
-  "movie_banner": "[Everything is taken from internet-Omni TV only play those, owns nothing]",
+  "movie_banner": "[Every content is available freely on internet-Jiotv Go is only a player, not provider]",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
   "min_app_version": "2.0.2",
