@@ -37,11 +37,8 @@
     "Alliance Broadband": [
       "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u",
       "https://livetv-cb7.pages.dev/Zee5.m3u",
-      "https://playlists-by-playztv.pages.dev/zeesd.m3u",
-      "https://alex4528.site/playlist/z5.m3u",
       "https://raw.githubusercontent.com/drmlive/sliv-live-events/refs/heads/main/sonyliv.m3u",
-      "https://m3u.cloudplay.qzz.io/bsnltango.txt",
-      "https://iptv-org.github.io/iptv/countries/in.m3u"
+      "https://m3u.cloudplay.qzz.io/bsnltango.txt"
     ]
   },
   "live_events": [
