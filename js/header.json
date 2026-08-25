@@ -1,62 +1,15 @@
 {
-  "JioTV+": [
-    {
-    "name": "Jiotv+ 2",
-    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/mbjtv-pro.m3u",
-    "logo": "https://iili.io/f1zkPwP.md.png"
-    },
-    {
-      "name": "JioTV+ Network",
-      "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
-      "logo": "https://iili.io/f1zkPwP.md.png",
-      "multi": true
-    },
-    {
-      "name": "Jio Hotstar",
-      "url": "https://host.cloudplay.qzz.io/app/hstr/main-hstr-2.php",
-      "logo": "https://i.postimg.cc/g2Tt3MjT/hotstar.webp",
-      "m3u": "true"
-    }
-  ],
-  "Omni TV+": [
-    {
-      "name": "FIFA web",
-      "url": "https://raw.githubusercontent.com/opensourceflix/OpenSourceFlix/refs/heads/main/papaos.m3u8",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhdNeq5o5PVPqx-Y86GSp7cIhjt58EJjXKh-K2R0hCBBpam6Q2RHvPkk4&s=10",
-      "m3u": "true"
-    },
-    {
-      "name": "Cric HD web",
-      "url": "https://raw.githubusercontent.com/abusaeeidx/CricHd-playlists-Auto-Update-permanent/refs/heads/main/api.json",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiHDoREdYv341_YCruoBBS4nhKdOGT4PjuKQ&s",
-      "m3u": "true"
-    }
-  ],
   "allow_servers": [
-    "Zee5 go"
+    ""
   ],
   "server_groups": {
-    "Sony": [
-      "Vtv Sony Liv",
-      "MFtv Sony Live"
+    "s": [
+      "",
+      ""
     ],
-    "Zee5": [
-      "Vtv ZEE 5 OFFICIAL",
-      "Zee5 Network"
-    ],
-    "Sun NXT": [
-      "MFtv SUN NXT"
-    ],
-    "Jiotv+": [
-      "Alliance Broadband",
-      "Alliance",
-      "Vtv Hotstar",
-      "Hotstar",
-      "Vtv Hotstar"
-    ]
   },
   "live_servers": [
-    "Live Match"
+    ""
   ],
   "playz_channels_enabled": false,
   "banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
@@ -68,11 +21,9 @@
   "movie_banner": "Search 🔎 Anything. [Everything is taken from internet-Omni TV only play those, owns nothing]",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
-  "upi": "atanukrroy15-2@okaxis",
-  "upi_number": "9564866051",
   "min_app_version": "2.0.2",
   "custom_channels": {
-    "Cric HD web": [
+    "C": [
       {
         "name": "",
         "url": "",
@@ -110,82 +61,6 @@
     }
   ],
   "hidden_servers": [
-    ".",
-    "Vtv Jio TV",
-    "Vtv Jio Hotstar",
-    "FIFA 2026",
-    "Vtv Movies",
-    "Vtv XUMO",
-    "Vtv XIAOMI TV+",
-    "Vtv VIZIO",
-    "Vtv TUBI TV",
-    "Vtv TABLO TV",
-    "Vtv FIRE TV",
-    "Vtv DISTRO TV",
-    "Vtv FREE TV",
-    "Vtv RUN TV",
-    "Vtv WAVES OTT   {Worldwide}",
-    "Vtv Dish Home (HD)   {Worldwide}",
-    "Vtv OPPLEX TV  {Worldwide}",
-    "Vtv FIFA 2026",
-    "Vtv FIFA Server 2",
-    "Vtv Zee5 Live  {Fifa}",
-    "Vtv Live Events",
-    "Vtv Sony Liv Worldwide",
-    "Vtv PIRATES TV",
-    "Vtv TATA PLAY",
-    "Vtv FANCODE LIVE  {Worldwide}",
-    "Vtv Lg TV",
-    "Vtv TUTU PLAY",
-    "Fancode 2",
-    "Sony By Jio",
-    "Sony For Worldwide",
-    "Sony (Backup)",
-    "Tata Play",
-    "Tata Play (Backup)",
-    "Tata Play IN",
-    "Tata Play Local",
-    "Shoq Tv",
-    "Shoq Tv 2",
-    "Shoq Network",
-    "Stalker Portal",
-    "SonyLiv Events",
-    "SonyLiv Events 2",
-    "JioTV+ (Backup)",
-    "Opplex",
-    "Opplex TV",
-    "MFtv AYNA",
-    "MFtv DISH TV",
-    "MFtv PISHOW",
-    "MFtv CRICHD",
-    "MFtv DANGAL TV",
-    "MFtv RUN TV",
-    "MFtv DARK TV",
-    "MFtv IZZI GO",
-    "MFtv WATCHO",
-    "MFtv Hotstar",
-    "MFtv JIOHOTSTAR",
-    "MFtv Jiotv Backup",
-    "MFtv Temp Backup",
-    "_2 MFtv HOTSTAR",
-    "MFtv JioTV+ 1",
-    "MFtv JioTV+ 2",
-    "MFtv JioTV+ 3",
-    "MFtv JioTV+ 4",
-    "MFtv TATA IND 2",
-    "MFtv Radio India",
-    "MFtv Tata Play Premium",
-    "MFtv World Sport",
-    "MFtv JIO IND",
-    "MFtv JIO IND2",
-    "MFtv JIO BD",
-    "MFtv JIOLIVE IND",
-    "MFtv JIOTV+",
-    "MFtv JIOTV+ S2",
-    "MFtv JIOTV+ S3",
-    "MFtv JIOTV+ S4",
-    "runn TV",
-    "OxoLive",
-    "Yupp Tv"
+    "."
   ]
 }
