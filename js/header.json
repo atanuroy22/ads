@@ -59,18 +59,18 @@
     "Live Match"
   ],
   "playz_channels_enabled": false,
-  "banner": "[Sports -> In Live Sports] ⚠ [OTT -> In Movies]",
+  "banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
   "banner_enabled": true,
-  "banner_scroll": false,
-  "channel_banner": "Server is under Maintenance.🚨 Use Vtv until Fixed",
-  "channel_banner_enabled": false,
-  "channel_banner_scroll": false,
-  "movie_banner": "Search 🔍 Any Movies, Series, Anime, Any OTT content.",
+  "banner_scroll": true,
+  "channel_banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app.]",
+  "channel_banner_enabled": true,
+  "channel_banner_scroll": true,
+  "movie_banner": "[Omni TV does not host, upload, record, store or broadcast any video. It is just a player. It holds no content of its own. It opens links that already exist on the public internet and this app only plays like a player, the same way a web browser opens a page it did not create. Nothing streams from the developer or from this app. So you can search 🔎 anything that is available in the internet.]",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
   "upi": "atanukrroy15-2@okaxis",
   "upi_number": "9564866051",
-  "min_app_version": "2.0.1",
+  "min_app_version": "2.0.2",
   "custom_channels": {
     "Cric HD web": [
       {
