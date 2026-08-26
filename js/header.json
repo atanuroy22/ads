@@ -1,4 +1,45 @@
 {
+  "JioTV+": [
+    {
+    "name": "Jiotv+ 2",
+    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/mbjtv-pro.m3u",
+    "logo": "https://iili.io/f1zkPwP.md.png"
+    },
+    {
+      "name": "JioTV+ Network",
+      "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
+      "logo": "https://iili.io/f1zkPwP.md.png",
+      "multi": true
+    },
+    {
+      "name": "Jio Hotstar",
+      "url": "https://host.cloudplay.qzz.io/app/hstr/main-hstr-2.php",
+      "logo": "https://i.postimg.cc/g2Tt3MjT/hotstar.webp",
+      "m3u": "true"
+    },
+    {
+      "name": "Zee5 Network",
+      "url": "https://cloudplay-app-json.pages.dev/pro-cat/zee5.json",
+      "multi": true
+    },
+    {
+      "name": "Sony (IN)",
+      "url": "https://json.cloudplay.qzz.io/all-files-raw/sony.m3u",
+      "logo": "https://iili.io/f1zk6AB.jpg",
+      "m3u": "true"
+    },
+    {
+      "name": "Sony Network",
+      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
+      "logo": "https://iili.io/f1zk6AB.jpg",
+      "m3u": "true"
+    },
+    {
+      "name": "Sun NXT",
+      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sunnxt.json",
+      "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png"
+    }
+  ],
   "allow_servers": [
     ""
   ],
