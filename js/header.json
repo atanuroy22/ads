@@ -1,11 +1,6 @@
 {
   "Jio": [
     {
-    "name": "Jiotv+ 2",
-    "url": "https://m3u.cloudplay.qzz.io/prm-m3u/mbjtv-pro.m3u",
-    "logo": "https://iili.io/f1zkPwP.md.png"
-    },
-    {
       "name": "JioTV+ Network",
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
       "logo": "https://iili.io/f1zkPwP.md.png",
@@ -38,6 +33,18 @@
       "name": "Sun NXT",
       "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sunnxt.json",
       "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png"
+    },
+    {
+      "name": "Extra",
+      "url": "https://cloudplay-app-json.pages.dev/pro-cat/extras.json",
+      "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png",
+      "multi": true
+    },
+    {
+      "name": "Iptv India",
+      "url": "https://iptv-org.github.io/iptv/countries/in.m3u",
+      "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png",
+      "m3u": "true"
     }
   ],
   "allow_servers": [
