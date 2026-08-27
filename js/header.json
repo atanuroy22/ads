@@ -1,12 +1,6 @@
 {
   "Jio": [
     {
-      "name": "JTV Go+",
-      "url": "https://jtvgo.atanu2.dpdns.org/playlist.json",
-      "logo": "https://iili.io/f1zkPwP.md.png",
-      "show": true
-    },
-    {
       "name": "JioTV+ Network",
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
       "logo": "https://iili.io/f1zkPwP.md.png",
