@@ -1,6 +1,12 @@
 {
   "Jio": [
     {
+      "name": "JTV Go+",
+      "url": "https://jtvgo.atanu2.dpdns.org/playlist.json",
+      "logo": "https://iili.io/f1zkPwP.md.png",
+      "show": true
+    },
+    {
       "name": "JioTV+ Network",
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
       "logo": "https://iili.io/f1zkPwP.md.png",
@@ -87,7 +93,6 @@
       "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
     ],
     "Alliance Broadband": [
-      "https://jtvgo.atanu2.dpdns.org/playlist.json",
       "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u",
       "https://livetv-cb7.pages.dev/Zee5.m3u",
       "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
