@@ -87,7 +87,14 @@
       "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
     ],
     "Alliance Broadband": [
-      "https://francisco-directed-words-sit.trycloudflare.com/playlist.json"
+      "https://jtvgo.atanu2.dpdns.org/playlist.json",
+      "https://raw.githubusercontent.com/vijay-iptv/JSON/refs/heads/main/zee5.json",
+      "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u",
+      "https://livetv-cb7.pages.dev/Zee5.m3u",
+      "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
+      "https://raw.githubusercontent.com/abusaeeidx/Yupptv-Playlist/refs/heads/main/playlist.m3u",
+      "https://raw.githubusercontent.com/himanshu-temp/m3u/main/lgtv.m3u",
+      "https://m3u.cloudplay.qzz.io/bsnltango.txt"
     ]
   },
   "live_events": [
