@@ -45,6 +45,12 @@
       "url": "https://iptv-org.github.io/iptv/countries/in.m3u",
       "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png",
       "m3u": "true"
+    },
+     {
+      "name": "Omni +",
+      "url": "https://jtvgo.atanu2.dpdns.org/playlist.json",
+      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ34YJY2Z5kKQiw6ZjoxqKE-JNQ8BlyeNOsWIMPl_IkSQ&s",
+      "show": true
     }
   ],
   "allow_servers": [
