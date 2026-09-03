@@ -73,6 +73,7 @@
   "multiplay": true,
   "store_auth": true,
   "store_auth_url": "https://jtvgo.atanu2.dpdns.org/auth",
+  "support_url": "https://t.me/atanu_support",
   "custom_channels": {
     "C": [
       {
