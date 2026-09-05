@@ -68,7 +68,7 @@
   "movie_banner": "[This app only play freely available contents of internet] search anything,Jtv go can play everything.",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
-  "min_app_version": "2.0.3",
+  "min_app_version": "2.0.4",
   "multiplay_servers": false,
   "multiplay": true,
   "store_auth": true,
