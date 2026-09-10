@@ -59,13 +59,13 @@
   "live_servers": [
     ""
   ],
-  "banner": "[No content is published or broadcasted by Jtv go or owner- It's only a player, not provider]",
+  "banner": "[Jtv go is only a video player, not provider]",
   "banner_enabled": true,
-  "banner_scroll": true,
+  "banner_scroll": false,
   "channel_banner": "[Every content is available freely on internet-Jiotv Go is only a player, not provider]",
   "channel_banner_enabled": false,
-  "channel_banner_scroll": true,
-  "movie_banner": "[This app only play freely available contents of internet] search anything,Jtv go can play everything.",
+  "channel_banner_scroll": false,
+  "movie_banner": "[Jtv go only play freely available contents of internet] search anything,Jtv go can play everything.",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
   "min_app_version": "2.0.4",
