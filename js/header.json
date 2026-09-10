@@ -71,7 +71,7 @@
   "min_app_version": "2.0.4",
   "multiplay_servers": false,
   "multiplay": true,
-  "store_auth": true,
+  "store_auth": false,
   "store_auth_url": "https://jtvgo.atanu2.dpdns.org/auth",
   "support_url": "https://t.me/atanu_support",
   "custom_channels": {
