@@ -5,7 +5,6 @@
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
       "logo": "https://iili.io/f1zkPwP.md.png",
       "multi": true,
-      "show": true
     },
     {
       "name": "Jio Hotstar",
@@ -69,8 +68,8 @@
   "movie_banner": "[Jtv go only play freely available contents of internet] search anything,Jtv go can play everything.",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
-  "min_app_version": "2.0.4",
-  "multiplay_servers": true,
+  "min_app_version": "2.0.5",
+  "multiplay_servers": false,
   "multiplay": true,
   "store_auth": false,
   "store_auth_url": "https://jtvgo.atanu2.dpdns.org/auth",
@@ -91,6 +90,7 @@
       "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
     ],
     "Alliance Broadband": [
+      "https://m3u.cloudplay.qzz.io/jtvbpk.m3u",
       "https://jtvgo.atanu2.dpdns.org/file/jtv1.json",
       "https://raw.githubusercontent.com/alexandermail371/cricfytv/refs/heads/main/sunxt.m3u",
       "https://livetv-cb7.pages.dev/Zee5.m3u",
