@@ -68,6 +68,7 @@
   "movie_banner": "[Jtv go only play freely available contents of internet] search anything,Jtv go can play everything.",
   "movie_banner_enabled": true,
   "movie_banner_scroll": true,
+  "moviebox_code_url": "https://raw.githubusercontent.com/atanuroy22/jiotv_go_app/main/moviebox.js",
   "min_app_version": "2.0.5",
   "multiplay_servers": false,
   "multiplay": true,
