@@ -70,7 +70,7 @@
   "movie_banner_scroll": true,
   "moviebox_code_url": "https://raw.githubusercontent.com/atanuroy22/jiotv_go_app/main/moviebox.js",
   "moviebox_site": "https://movibox.net",
-  "recharge_url": "https://jiotv-recharge.atanukrroy45.workers.dev/recharge",
+  "recharge_url": "",
   "min_app_version": "2.0.6",
   "multiplay_servers": false,
   "multiplay": true,
