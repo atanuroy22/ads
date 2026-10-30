@@ -38,7 +38,7 @@
     },
     {
       "name": "Sun NXT",
-      "url": "https://cloudplay-app-json.pages.dev/pro-raw-files/sunnxt.json",
+      "url": "https://getapks.pages.dev/Sunnxt.m3u",
       "logo": "https://i.postimg.cc/qR6Rxcn3/sunnxt.png"
     },
     {
@@ -97,7 +97,8 @@
   "custom_server_urls": {
     "Free Jio": [
       "https://livetv-cb7.pages.dev/Zee5.m3u",
-      "https://cloudplay-app-json.pages.dev/pro-raw-files/sony.m3u",
+      "https://getapks.pages.dev/Sunnxt.m3u",
+      "https://work.freelivtv.workers.dev/"
     ],
     "Alliance Broadband": [
       "https://jtvgo.atanu2.dpdns.org/file/jtv1.json",
