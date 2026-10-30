@@ -1,5 +1,12 @@
 {
   "Jio": [
+        {
+    "name": "Jio TV+ billa",
+    "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ97jLz_IEgK_4Y8QvSObSS9f3NnFBh68IxcELRZ7ZvQ&s=10",
+    "url": "https://billatv.modsdone.com/playlist/jtvh_vaibhav.php",
+    "m3u": "true",
+    "show": "true"
+  },
     {
       "name": "JioTV+ Network",
       "url": "https://cloudplay-app-json.pages.dev/pro-cat/jiotv+.json",
